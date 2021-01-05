@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "ProjectName" : "Wax-On",
+    "Description": "This project Was a full stack web application that I built using a SQL database with a React front end to Allow a user to sign up for mobile car washes",
+    "Tech": "SQL, JavaScript, React, Express, Node, CSS"
+  },
+  {
+    "id" : 2,
+    "ProjectName": "FakeCars",
+    "Description" : "This project was a single page web application that takes data of cars and displays it to a user in a friendly way",
+    "Tech":"JavaScript, React, Node, JSS"
+  },
+  {
+    "id": 3,
+    "ProjectName" : "Music-Controller",
+    "Description" : "This project was a UI for a music website where a co-devloper and I had to layout and show how the widget would work",
+    "Tech": "JavaScript, React, Node, JSS"
+  },
+  {
+    "id":4,
+    "ProjectName":"Tic-Tac-toe",
+    "Description":"This project utilizes basic javascript to make a computer vs human game of tic-tac-toe",
+    "Tech":"JavaScript, CSS"
+  },
+  {
+    "id":5,
+    "ProjectName": "Pig-Latin",
+    "Description": "This project use javascript to make a pig latin translater for phrases or just one word",
+    "Tech":"JavaScript, CSS"
+  }
+]
