@@ -1,9 +1,21 @@
+import {Link} from 'react-router-dom'
 
 let Resume = ()=>{
   return(
-    <div>
-      <h1>Resume</h1>
+    <div className = "holder">
+    <div className = "container">
+      <div className = "buttonHolder">
+        <h1>resume</h1>
+        <Link to = "/projects">
+          <button>Projects</button>
+        </Link>
+
+        <Link to = "/">
+          <button>Home</button>
+        </Link>
+      </div>
     </div>
+  </div>
   )
 }
 

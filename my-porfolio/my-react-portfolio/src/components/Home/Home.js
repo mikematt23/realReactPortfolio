@@ -1,27 +1,37 @@
 import {useState} from "react"
+import "./Home.css"
+import {Link} from 'react-router-dom'
+
 
 let Home = ()=>{
-  const [isClicked,setClicked] = useState(false)
-  const toggle = ()=>{
-     setClicked(!isClicked)
-  }
-  if(isClicked){
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dr+Sugiyama" />
+
     return(
       <div>
-        <h1>Welcome!</h1>
-        <h2>Hello I am Michael A web developer below are some of my projects</h2>
-        <button onClick = {toggle}>Projects</button>
-        <button>Resume</button>
+        <div className = "holder">
+          <div className = "container">
+            <div className = "Info">
+              <h1 className = "ppp">Michael Matteis</h1>
+              <div className = "contact">
+                <h3>michaelcmatteis@gmail.com</h3>
+                <h3>469-667-3624</h3>
+              </div>
+            </div>  
+            <div className = "Nav">
+              <h2>Web Devloper</h2>
+              <div className = "buttonHolder">
+                <Link to = "/projects">
+                  <button >Projects</button>
+                </Link>
+                <Link to = "/resume">
+                  <button >Resume</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    )
-  } else{
-    return(
-      <div>
-        <h1>false</h1>
-        <button onClick = {toggle}>Projects</button>
-      </div>
-    )
-  }
+    ) 
 }
 
 export default Home

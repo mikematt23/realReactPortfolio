@@ -1,0 +1,104 @@
+@keyframes flip{
+  0%{transform: rotate3d(0);}
+  25%{transform: rotate3d(0,20,0,90deg);}
+  75%{transform: rotate3d(0,0,0,90deg);}
+}
+@keyframes text{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.container{
+  width: 85%;
+  height : 70%;
+  border: solid red 1px;
+  border-radius: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(173, 173, 173, 0.938);
+  animation-name: flip;
+  animation-duration: 2.5s;
+}
+.holder{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://cdn.wallpapersafari.com/42/56/jRKcl5.gif');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.buttonHolder{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectHolder{
+  height: 80%;
+  width: 60%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-left: double black 10px;
+}
+.projectContainer{
+  width: 80%;
+  height: 40%;
+  margin: 2%;
+}
+.projectHolder::-webkit-scrollbar {
+  display: none;
+}
+.ppp{
+  color: red;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  animation-name: text;
+  animation-duration: 5s;
+}
+button{
+  border: solid red 1px;
+  color: red;
+  border-radius: 10%;
+  margin: 5%;
+  /* box-shadow: 2px 3px rgba(255, 0, 0, 0.116); */
+  animation-name: text;
+  animation-duration: 5s;
+  background-color: rgba(173, 173, 173, 0.938);
+}
+
+button:hover{
+   box-shadow: 2px 3px rgba(255, 0, 0, 0.356);
+   color: red;
+}
+.Nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  animation-name: text;
+  animation-duration: 5s;
+}
+.Info{
+  width: 40%;
+  height: 80%;
+  border-right: double black 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: text;
+  animation-duration: 5s;
+}
+.contact{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5%;
+  animation-name: text;
+  animation-duration: 5s;
+}

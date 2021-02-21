@@ -3,7 +3,8 @@
     "id": 1,
     "ProjectName" : "Wax-On",
     "Description": "This project Was a full stack web application that I built using a SQL database with a React front end to Allow a user to sign up for mobile car washes",
-    "Tech": "SQL, JavaScript, React, Express, Node, CSS"
+    "Tech": "SQL, JavaScript, React, Express, Node, CSS",
+    "Link": "https://aca-final-project-front-end.herokuapp.com/"
   },
   {
     "id" : 2,
@@ -15,7 +16,8 @@
     "id": 3,
     "ProjectName" : "Music-Controller",
     "Description" : "This project was a UI for a music website where a co-devloper and I had to layout and show how the widget would work",
-    "Tech": "JavaScript, React, Node, JSS"
+    "Tech": "JavaScript, React, Node, JSS",
+    "Link":"https://working-together-music-app.herokuapp.com/"
   },
   {
     "id":4,
