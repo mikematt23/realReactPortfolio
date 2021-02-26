@@ -1,5 +1,6 @@
 import projects from "../../Projects.json"
 import {Link} from 'react-router-dom'
+import "./Projects.css"
 
 let Projects = ()=>{
   return(
@@ -17,7 +18,7 @@ let Projects = ()=>{
       <div className = "projectHolder">
         {projects.map((project, id) => (
           <div className = "projectContainer">
-            <p className = "ppp">{project.ProjectName}</p>
+            <p className = "projectTitle">{project.ProjectName}</p>
             <p>{project.Description}</p>
             <a href = {project.Link}>See Project</a>
           </div>

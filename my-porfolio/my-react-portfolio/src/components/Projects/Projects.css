@@ -1,0 +1,31 @@
+.projectHolder{
+  height: 80%;
+  width: 60%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-left: double black 10px;
+  animation-name: text;
+  animation-duration: 5s;
+}
+.projectTitle{
+  color: red;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  animation-name: text;
+  animation-duration: 5s;
+  animation-name: text;
+  animation-duration: 5s;
+}
+.projectHolder::-webkit-scrollbar {
+  display: none;
+}
+.projectContainer{
+  width: 80%;
+  height: 40%;
+  margin: 2%;
+  animation-name: text;
+  animation-duration: 5s;
+}

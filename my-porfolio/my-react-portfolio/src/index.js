@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import "./components/ShairedCSS/animation.css";
+import "./components/ShairedCSS/componentCSS.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

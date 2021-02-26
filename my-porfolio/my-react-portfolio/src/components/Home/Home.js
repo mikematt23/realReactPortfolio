@@ -1,5 +1,6 @@
 import {useState} from "react"
 import "./Home.css"
+
 import {Link} from 'react-router-dom'
 
 
@@ -12,14 +13,15 @@ let Home = ()=>{
           <div className = "container">
             <div className = "Info">
               <h1 className = "ppp">Michael Matteis</h1>
+              <h2 className = "mobileTitle">Web Devloper</h2>
               <div className = "contact">
                 <h3>michaelcmatteis@gmail.com</h3>
                 <h3>469-667-3624</h3>
               </div>
             </div>  
             <div className = "Nav">
-              <h2>Web Devloper</h2>
-              <div className = "buttonHolder">
+              <h2 className ="computer">Web Devloper</h2>
+              <div className ="buttonHolder">
                 <Link to = "/projects">
                   <button >Projects</button>
                 </Link>
