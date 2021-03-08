@@ -25,7 +25,39 @@
 .projectContainer{
   width: 80%;
   height: 40%;
-  margin: 2%;
+  margin-bottom: 5%;
   animation-name: text;
   animation-duration: 5s;
+}
+.disclamer{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.disclamer p{
+  font-size: 70%;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px){
+  .projectContainer{
+    height: 66%;
+    margin: 9%;
+  }
+}
+@media screen and (max-width:600px){
+  .projectContainer{
+    border-top:double black 10px;
+    margin-bottom: 73%;
+  }
+  .projectHolder{
+    border: 0px;
+  }
+}
+@media screen and (max-width:905px){
+  .projectContainer{
+    margin-bottom: 20%;
+  }
 }

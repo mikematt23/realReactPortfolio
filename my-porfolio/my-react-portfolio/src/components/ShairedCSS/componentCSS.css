@@ -29,7 +29,7 @@ button{
   border: solid red 1px;
   color: red;
   border-radius: 10%;
-  margin: 5%;
+  /* margin: 5%; */
   /* box-shadow: 2px 3px rgba(255, 0, 0, 0.116); */
   animation-name: text;
   animation-duration: 5s;
@@ -39,4 +39,11 @@ button{
 button:hover{
    box-shadow: 2px 3px rgba(255, 0, 0, 0.356);
    color: red;
+}
+
+@media screen and (max-width:600px){
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
 }
