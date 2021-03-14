@@ -1,0 +1,37 @@
+.resumeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content{
+  height: 100%;
+  width: 80%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+.body{
+  display: flex;
+  justify-content: space-between;
+}
+.workHistory{
+  height: 250px;
+  width: 90%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+.skills{
+  height: 250px;
+  width:33%;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+}
+.workHistory::-webkit-scrollbar {
+  display: none;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
