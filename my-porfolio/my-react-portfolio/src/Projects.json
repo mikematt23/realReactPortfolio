@@ -2,26 +2,33 @@
   {
     "id": 1,
     "ProjectName" : "Wax-On",
-    "Description": "This project Was a full stack web application that I built using a SQL database with a React front end to Allow a user to sign up for mobile car washes",
-    "Tech": "SQL, JavaScript, React, Express, Node, CSS",
-    "Link": "https://aca-final-project-front-end.herokuapp.com/"
+    "Description": "This project is a full stack web application that I built using a SQL database with a React front end to Allow a user to sign up for mobile car washes",
+    "Tech": "SQL, JavaScript, React, React-Router, Redux, Express, Node, CSS, HTML ,JSS",
+    "Link": "https://aca-final-project-front-end.herokuapp.com/",
+    "Github":"https://github.com/mikematt23/gcloud-express"
   },
   {
     "id" : 2,
     "ProjectName": "FakeCars",
-    "Description" : "This project was a single page web application that takes data of cars and displays it to a user in a friendly way",
-    "Tech":"JavaScript, React, Node, JSS"
+    "Description" : "This project is a single page web application that uses react-router to munipulate the date being displayed on the page",
+    "Tech":"JavaScript, React, Node, JSS, HTML",
+    "Link":"https://reactcarapp.herokuapp.com/",
+    "Github":"https://github.com/mikematt23/411_wk4_day1_react_router"
   },
   {
     "id":3,
     "ProjectName":"Tic-Tac-toe",
-    "Description":"This project utilizes basic javascript to make a computer vs human game of tic-tac-toe",
-    "Tech":"JavaScript, CSS"
+    "Description":"This project use basic javascript to make a very basic AI to play a tic tac toe game with",
+    "Tech":"JavaScript, CSS, HTML",
+    "Link":"https://mikestictactoeapp.herokuapp.com/ticTacToe.html",
+    "Github":"https://github.com/mikematt23/ticTacToe"
   },
   {
     "id":4,
     "ProjectName": "Pig-Latin",
-    "Description": "This project use javascript to make a pig latin translater for phrases or just one word",
-    "Tech":"JavaScript, CSS"
+    "Description": "This project use javascript to manipulat the DOM to make a pig latin translater for phrases or just one word based on the user imput",
+    "Tech":"JavaScript, CSS, HTML",
+    "Link":"https://piglatinapp.herokuapp.com/pigLatin.html",
+    "Github":"https://github.com/mikematt23/pigLatin"
   }
 ]

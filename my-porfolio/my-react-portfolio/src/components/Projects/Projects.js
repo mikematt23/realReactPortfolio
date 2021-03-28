@@ -24,7 +24,9 @@ let Projects = ()=>{
           <div className = "projectContainer">
             <p className = "projectTitle">{project.ProjectName}</p>
             <p>{project.Description}</p>
+            <p> Uses: {project.Tech}</p>
             <a href = {project.Link}>See Project</a>
+            <a href = {project.Github}>See code</a>
           </div>
         ))}
       </div>
